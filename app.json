@@ -1,8 +1,8 @@
 {
   "expo": {
     "name": "Naimaa",
-    "slug": "Naimaa-naimaa",
-    "version": "0.0.6",
+    "slug": "Naimaa-naimaa8a",
+    "version": "0.0.1",
     "orientation": "portrait",
     "icon": "./assets/ioslogo.png",
     "userInterfaceStyle": "light",
@@ -19,8 +19,8 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "mn.naimaa",
-      "buildNumber": "0.0.4",
+      "bundleIdentifier": "mn.naimaa8a",
+      "buildNumber": "0.0.1",
       "entitlements": {
         "com.apple.developer.networking.wifi-info": true
       }
@@ -34,8 +34,8 @@
       ]
     ],
     "android": {
-      "versionCode": 6,
-      "package": "mn.naimaa",
+      "versionCode": 1,
+      "package": "mn.naimaa8a",
       "permissions": [ "CAMERA", "WRITE_EXTERNAL_STORAGE", "CAMERA_ROLL" ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/androidlogo.png",
