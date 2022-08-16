@@ -70,6 +70,69 @@ const ReportScreen = () => {
           Гүйлгээний тайлан
         </Text>
       </TouchableOpacity>
+      <TouchableOpacity
+        onPress={() => navigation.navigate("BoughtRemainderScreen")}
+        style={{
+          backgroundColor: "#175E26",
+          padding: 5,
+          marginTop: 10,
+          marginHorizontal: 10,
+          borderRadius: 10,
+        }}
+      >
+        <Text
+          style={{
+            color: "white",
+            padding: 5,
+            textAlign: "center",
+            fontWeight: "bold",
+          }}
+        >
+          Эхний үлдэгдэл болон дундаж үнэ
+        </Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        onPress={() => navigation.navigate("ProfitScreen")}
+        style={{
+          backgroundColor: "#175E26",
+          padding: 5,
+          marginTop: 10,
+          marginHorizontal: 10,
+          borderRadius: 10,
+        }}
+      >
+        <Text
+          style={{
+            color: "white",
+            padding: 5,
+            textAlign: "center",
+            fontWeight: "bold",
+          }}
+        >
+          Ашиг орлогын тайлан
+        </Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        onPress={() => navigation.navigate("AllReportScreen")}
+        style={{
+          backgroundColor: "#175E26",
+          padding: 5,
+          marginTop: 10,
+          marginHorizontal: 10,
+          borderRadius: 10,
+        }}
+      >
+        <Text
+          style={{
+            color: "white",
+            padding: 5,
+            textAlign: "center",
+            fontWeight: "bold",
+          }}
+        >
+          Нэгдсэн тайлан
+        </Text>
+      </TouchableOpacity>
     </View>
   );
 };

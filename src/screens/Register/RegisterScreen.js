@@ -48,8 +48,9 @@ const RegisterScreen = () => {
       </View>
       <View style={{ borderWidth: 1, borderColor: "#cccccccc" }} />
       <Image
-        source={require("../../../assets/emptys.png")}
+        source={require("../../../assets/user.png")}
         style={{ width: 120, height: 100, alignSelf: "center", marginTop: 20 }}
+        resizeMode={"contain"}
       />
       <Text
         style={{

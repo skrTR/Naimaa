@@ -2,10 +2,13 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import React from "react";
 import MyBackButton from "../components/MyBackButton";
 import ProductDetailScreen from "../screens/List/ProductDetailScreen";
+import AllReportScreen from "../screens/Report/AllReportScreen";
 import AllStaticScreen from "../screens/Report/AllStaticScreen";
 import BillDetailScreen from "../screens/Report/BillDetailScreen";
+import BoughtRemainderScreen from "../screens/Report/BoughtRemainderScreen";
 import IncomeStaticScreen from "../screens/Report/IncomeStaticScreen";
 import OutcomeStaticScreen from "../screens/Report/OutcomeStaticScreen";
+import ProfitScreen from "../screens/Report/ProfitScreen";
 import ReportScreen from "../screens/Report/ReportScreen";
 
 const ReportStack = () => {
@@ -59,6 +62,33 @@ const ReportStack = () => {
         options={{
           presentation: "formSheet",
           title: "Барааны дэлгэрэнгүй",
+          headerLeft: () => <MyBackButton />,
+        }}
+      />
+      <ReportStack.Screen
+        name="AllReportScreen"
+        component={AllReportScreen}
+        options={{
+          presentation: "formSheet",
+          title: "Нэгдсэн тайлан",
+          headerLeft: () => <MyBackButton />,
+        }}
+      />
+      <ReportStack.Screen
+        name="ProfitScreen"
+        component={ProfitScreen}
+        options={{
+          presentation: "formSheet",
+          title: "Ашиг орлогын тайлан",
+          headerLeft: () => <MyBackButton />,
+        }}
+      />
+      <ReportStack.Screen
+        name="BoughtRemainderScreen"
+        component={BoughtRemainderScreen}
+        options={{
+          presentation: "formSheet",
+          title: "Эхний үлдэгдэл болон дундаж үнэ",
           headerLeft: () => <MyBackButton />,
         }}
       />

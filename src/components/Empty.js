@@ -7,7 +7,7 @@ const Empty = ({ text }) => {
   return (
     <View style={{ alignItems: "center" }}>
       <Image
-        source={require("../../assets/emptys.png")}
+        source={require("../../assets/emptybox.png")}
         style={{ width: 300, height: 300 }}
       />
       <Text style={{ textAlign: "center" }}>{text} Хоосон байна</Text>
